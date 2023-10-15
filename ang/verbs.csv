@@ -53,7 +53,7 @@ voditi,lead,led,led
 učiti (se),learn,learned/learnt,learned/learnt
 zapustiti,leave,left,left
 posoditi,lend,lent,lent
-pustiti,let,let,let
+pustiti (zaspati),let,let,let
 ležati,lie,lay,lain
 sveteti,light,lit,lit
 zgubiti,lose,lost,lost
@@ -72,7 +72,7 @@ gledati,see,saw,seen
 iskati,seek,sought,sought
 prodati,sell,sold,sold
 poslati,send,sent,sent
-postaviti,set,set,set
+nastaviti,set,set,set
 šivati,sew,sewed,sewn
 tresti,shake,shook,shaken
 svetiti,shine,shone,shone
@@ -106,6 +106,6 @@ misliti,think,thought,thought
 vreči,throw,threw,thrown
 razumeti,understand,understood,understood
 prebuditi (se),wake,woke,woken
-nositi,wear,wore,woken
+nositi (oblačila),wear,wore,worn
 zmagati,win,won,won
 pisati,write,wrote,written
