@@ -19,10 +19,10 @@ def ask(slo: str, d: tuple[str, str, str]):
         if resp == "exit":
             exit(0)
         if resp in options:
-            wasabi.msg.good(f"{verb} ({'/'.join(options)})")
+            wasabi.msg.good(f"{resp} ({'/'.join(options)})")
             print()
             continue
-        wasabi.msg.fail(f"{verb} ({'/'.join(options)})")
+        wasabi.msg.fail(f"{resp} ({'/'.join(options)})")
         print()
 
 
