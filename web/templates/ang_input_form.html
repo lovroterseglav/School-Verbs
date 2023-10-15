@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verb: {{ verb }}</title>
+</head>
+<body>
+<h1>Verb: {{ verb }}</h1>
+<form method="POST" action="/submit_ang/{{ verb }}">
+    <table>
+        <tr>
+            <td>Infinitive:</td>
+            <td>Past:</td>
+            <td>Past Participle:</td>
+        </tr>
+        <tr>
+            <td><input type="text" name="infinitive" value="{{ infinitive }}" required></td>
+            <td><input type="text" name="past" value="{{ past }}" required></td>
+            <td><input type="text" name="past_participle" value="{{ past_participle }}" required></td>
+        </tr>
+        <tr>
+            <td>{{ infinitive_correct }}</td>
+            <td>{{ past_correct }}</td>
+            <td>{{ past_participle_correct }}</td>
+        </tr>
+    </table>
+    <br>
+    {% if render_submit %}
+    <input type="submit" value="Submit">
+    {% endif %}
+</form>
+</body>
+</html>

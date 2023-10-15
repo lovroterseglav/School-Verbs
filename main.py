@@ -57,9 +57,10 @@ def fetch_audio_from_url(url):
 def play_word(word: str):
     b64 = base64.b64encode(word.encode("utf-8")).decode("utf-8")
     url = f"https://voice.reverso.net/RestPronunciation.svc/v1/output=json/GetVoiceStream/voiceName=Klaus22k?inputText={b64}"
-    p = vlc.MediaPlayer(url)
-    p.audio_set_volume(70)
-    p.play()
+    with open("output_audio.mp3", "wb") as bw:
+        bw.write(fetch_audio_from_url(url))
+
+
 
 
 def diff_strings(original, needed):
