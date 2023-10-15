@@ -28,7 +28,7 @@ def ask(slo: str, d: tuple[str, str, str]):
 
 if __name__ == "__main__":
     with open("ang/verbs.csv") as fr:
-        data = [tuple(x) for x in csv.reader(fr)]
+        data = [tuple(x) for x in csv.reader(fr) if x]
         data.pop(0)
         shuffle(data)
         # data = set(data)
@@ -37,6 +37,7 @@ if __name__ == "__main__":
     while True:
         i = next(di, None)
         if not i:
+            print("\n\nNew Round\n")
             shuffle(data)
             di = data.__iter__()
             continue
