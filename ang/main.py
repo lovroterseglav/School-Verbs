@@ -27,7 +27,7 @@ def ask(slo: str, d: tuple[str, str, str]):
 
 if __name__ == "__main__":
     with open("verbs.csv") as fr:
-        data = list([tuple(x) for x in csv.reader(fr)])
+        data = [tuple(x) for x in csv.reader(fr)]
         data.pop(0)
         shuffle(data)
         # data = set(data)
