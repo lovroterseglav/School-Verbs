@@ -40,3 +40,4 @@ if __name__ == "__main__":
             di = data.__iter__()
             continue
         ask(i[0], (i[1], i[2], i[3]))
+#
