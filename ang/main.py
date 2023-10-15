@@ -33,6 +33,7 @@ def ask(slo: str, d: tuple[str, str, str]):
 
     print()
 
+
 if __name__ == "__main__":
     with open("ang/verbs.csv") as fr:
         data = [tuple(x) for x in csv.reader(fr) if x]

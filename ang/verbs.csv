@@ -20,7 +20,7 @@ stati (5€),cost,cost,cost
 rezati,cut,cut,cut
 dogovoriti,deal,dealt,dealt
 kopati (jamo),dig,dug,dug
-narediti,do,did,done
+narediti (dejanje),do,did,done
 risati,draw,drew,drawn
 sanjati,dream,dreamt/dreamed,dreamt/dreamed
 piti,drink,drank,drunk
@@ -57,10 +57,10 @@ pustiti (zaspati),let,let,let
 ležati,lie,lay,lain
 sveteti,light,lit,lit
 zgubiti,lose,lost,lost
-narediti,make,made,made
+narediti (hišo),make,made,made
 pomeniti,mean,meant,meant
 spoznati,meet,met,met
-plačati,pay,paid,pait
+plačati,pay,paid,paid
 postaviti (na mesto),put,put,put
 prebrati,read,read,read
 voziti,ride,rode,ridden
@@ -75,7 +75,7 @@ poslati,send,sent,sent
 nastaviti,set,set,set
 šivati,sew,sewed,sewn
 tresti,shake,shook,shaken
-svetiti,shine,shone,shone
+svetlikati,shine,shone,shone
 streljati,shoot,shot,shot
 pokazati,show,showed,shown
 zapreti,shut,shut,shut
