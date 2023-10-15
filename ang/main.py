@@ -23,10 +23,11 @@ def ask(slo: str, d: tuple[str, str, str]):
             print()
             continue
         wasabi.msg.fail(f"{verb} ({'/'.join(options)})")
+        print()
 
 
 if __name__ == "__main__":
-    with open("verbs.csv") as fr:
+    with open("ang/verbs.csv") as fr:
         data = [tuple(x) for x in csv.reader(fr)]
         data.pop(0)
         shuffle(data)
